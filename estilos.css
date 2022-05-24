@@ -1,0 +1,66 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(slider_calox_mascotas.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;		/*el cuerpo de todas las paginas*/
+    text-align: center;
+    color: #D71B1B;
+}
+
+
+.container{
+	width: 90%;
+	max-width: 1000px;		/*letra, posicion, texto y demas del index, y de la paginacion */
+	margin: auto;       		
+	font-size: 17pt;
+	text-align: left;
+}
+
+
+
+
+.contenedor{
+
+	width: 90%;
+	max-width: 1000px;		/*donde esta lo de buscar articulo o servicio */
+	margin: auto;       		
+	font-size: 17pt;
+	text-align: center;
+}
+
+.busqueda{
+
+	border-radius: 10px;
+	text-align: center;
+	outline: none;			/*donde se digita lo que se quiere buscar*/
+	font-size: 15pt;
+}
+
+
+
+.buscador{
+	text-align: center;
+	font-size: 20pt;
+	font-family:Latin Modern Roman 10;		/* resultados del buscador*/
+}
+
+
+
+.menu{
+
+	font-family:  Baskerville Old Face;
+	font-size: 15pt;
+	text-align: center;		/* los botones de pasar de una pagina a otra*/
+	border-radius: 15px;
+}
